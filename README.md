@@ -1,26 +1,25 @@
 # censys
 A simple Censys.io Python API Search
 
-#Why
-I couldnt find a python scriipt to do a simple cenys.io query.  
+## Why
+I couldn't find a python script to do a simple cenys.io query.  
 
-#Running
+## Running
 
-Searching Domain Name:
+**Searching Domain Name:**
 python censys.py -f www.censys.io
 
-Searching Generic Terms:
+**Searching Generic Terms:**
 python censys.py -f censys
 
-Searching IP Space:
+**Searching IP Space:**
 python censys.py -f 216.239.32.0/24
 
-#Demo
-<img src="https://github.com/jgamblin/censys/blob/master/censys.gif"">
+## Demo
+<img src="censys.gif">
 
-#Notes
+## Notes
 The API limit is pretty low so it may start throwing errors if you scan wide ranges. 
 
-#Important Notice
-
-I dont know what I am doing. I am not a programmer. I really suck at this. 
+## Important Notice
+I don't know what I am doing. I am not a programmer. I really suck at this.
