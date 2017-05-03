@@ -7,13 +7,13 @@ I couldn't find a python script to do a simple cenys.io query.
 ## Running
 
 **Searching Domain Name:**
-python censys.py -f www.censys.io
+```python censys.py -f www.censys.io```
 
 **Searching Generic Terms:**
-python censys.py -f censys
+```python censys.py -f censys```
 
 **Searching IP Space:**
-python censys.py -f 216.239.32.0/24
+```python censys.py -f 216.239.32.0/24```
 
 ## Demo
 <img src="censys.gif">
